@@ -20,14 +20,14 @@ const Navbar = () => (
         className="w-[24px] h-[24px] object-contain"
       />
 
-      <h2 className="font-extrabold text-[24px] leading-[30px] text-white uppercase">
+      <h2 className="font-extrabold text-[24px] leading-[30px] text-white uppercase z-10">
         HardcoreVerse
       </h2>
 
       <img
         src="/menu.svg"
         alt="menu"
-        className="w-[24px] h-[24px] object-contain"
+        className="w-[24px] h-[24px] object-contain cursor-pointer"
       />
     </div>
   </motion.nav>
